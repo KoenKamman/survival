@@ -1,0 +1,45 @@
+{
+  "name": "survival",
+  "version": "1.0.0",
+  "description": "Simple Genetic Algorithm library written in TypeScript.",
+  "source": "src/survival.ts",
+  "main": "dist/survival.js",
+  "umd:main": "dist/survival.umd.js",
+  "module": "dist/survival.module.js",
+  "esmodule": "dist/survival.modern.js",
+  "types": "dist/survival.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "mangle": {
+    "regex": "^_"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoenKamman/survival.git"
+  },
+  "author": "Koen Kamman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KoenKamman/survival/issues"
+  },
+  "homepage": "https://github.com/KoenKamman/survival#readme",
+  "keywords": [
+    "genetic",
+    "algorithm",
+    "evolution",
+    "evolve",
+    "survival",
+    "mutation",
+    "selection",
+    "fitness"
+  ],
+  "devDependencies": {
+    "microbundle": "^0.12.0"
+  },
+  "dependencies": {}
+}
